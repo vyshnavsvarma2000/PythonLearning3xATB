@@ -13,3 +13,4 @@ class Myclass:
 a = Myclass()
 a.public_func()
 a.public_fn_private()
+

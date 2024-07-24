@@ -12,7 +12,6 @@ class Car:
         print("Private ")
 
     def print_name(self):
-        self.__private_variable()
         print("Hi public var")
 
 alto = Car()
