@@ -7,7 +7,7 @@ import allure
 def test_sub0():
     assert 2 - 2 == 0
 
-@allure.title("#TC-1 Smoke Test")
+@allure.title("#TC-1 Regression  Test")
 @allure.description("Verify that 3-3= 0")
 @pytest.mark.regression
 def test_sub1():
@@ -22,7 +22,7 @@ def test_sub2():
 @pytest.mark.skip(reason="not working , skip")
 def test_sub3():
     assert 5 - 5 == 0
-@allure.title("#TC-4 Smoke Test")
+@allure.title("#TC-4 Sanity Test")
 @allure.description("Verify that 0-0 = 0")
 @pytest.mark.sanity
 def test_sub4():

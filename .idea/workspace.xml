@@ -4,26 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e03094bb-05a9-434c-8f5c-7853fe20363e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonLearning3xATB.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure_result/0856121e-5a50-4207-8e39-6e74f5e46527-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure_result/c7ed2ec1-aec4-4dfd-a448-870b6a975bea-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure_result/e46aa504-3fc5-4170-8c0a-211224c6548d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure_result/e5d933bf-89f6-4484-aab3-24d76dffdff2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure_result/ec0899e5-70a5-4383-9c93-abfee9203d3b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex8july2024/Lab81.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex21062024/Lab035.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex21062024/Lab035.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex28062024/Lab53.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex28062024/Lab53.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex28062024/Lab54.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex28062024/Lab54.py" afterDir="false" />
+    <list default="true" id="e03094bb-05a9-434c-8f5c-7853fe20363e" name="Changes" comment="API AUTOMATION Files, Pytest, Allure">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/test_Lab03.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/0856121e-5a50-4207-8e39-6e74f5e46527-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/c7ed2ec1-aec4-4dfd-a448-870b6a975bea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/e46aa504-3fc5-4170-8c0a-211224c6548d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/e5d933bf-89f6-4484-aab3-24d76dffdff2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/ec0899e5-70a5-4383-9c93-abfee9203d3b-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +398,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720545155737</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="API AUTOMATION Files, Pytest, Allure">
+      <option name="closed" value="true" />
+      <created>1721834168764</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721834168764</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,6 +435,7 @@
     <MESSAGE value="added oops inheritance, types of inheritance, abstraction, imports, method overriding, method overloading" />
     <MESSAGE value="added exception handling try , except , else, finally, custom exceptions, creating main function in python, file handling inn python" />
     <MESSAGE value="OS Modules, file access, Directories, Mark Down(md) files, Overview Fundamentals of API testing(Things to Learn)" />
-    <option name="LAST_COMMIT_MESSAGE" value="OS Modules, file access, Directories, Mark Down(md) files, Overview Fundamentals of API testing(Things to Learn)" />
+    <MESSAGE value="API AUTOMATION Files, Pytest, Allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="API AUTOMATION Files, Pytest, Allure" />
   </component>
 </project>
