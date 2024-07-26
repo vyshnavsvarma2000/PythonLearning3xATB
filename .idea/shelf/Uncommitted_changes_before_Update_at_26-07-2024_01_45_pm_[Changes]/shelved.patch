@@ -1,0 +1,404 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e03094bb-05a9-434c-8f5c-7853fe20363e\" name=\"Changes\" comment=\"API AUTOMATION Files, Pytest, Allure\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/API_AUTOMATION/test_Lab03.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/API_AUTOMATION/test_Lab03.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure_result/0856121e-5a50-4207-8e39-6e74f5e46527-result.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure_result/c7ed2ec1-aec4-4dfd-a448-870b6a975bea-result.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure_result/e46aa504-3fc5-4170-8c0a-211224c6548d-result.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure_result/e5d933bf-89f6-4484-aab3-24d76dffdff2-result.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure_result/ec0899e5-70a5-4383-9c93-abfee9203d3b-result.json\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;vyshnavsvarma2000&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/vyshnavsvarma2000/PythonLearning3xATB.git&quot;,\r\n    &quot;accountId&quot;: &quot;cb19955b-612a-4fc9-87d4-9e1ce1429aa1&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2hLsdvPjCSaBZm0vIE5aeAC9fDt\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Python tests.Python tests for test_Lab03.test_sub0.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python tests.Python tests for test_Lab03.test_sub1.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.LAB002.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab 026.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab001.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab003.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab004.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab005.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab007Work2.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab008.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab009Leapyearpgm.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab010Triangle.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab011Factorial.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab012Fibonacci.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab013.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab014.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab015.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab016.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab017.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab018.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab019.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab023..executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab024.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab025.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab027.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab028.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab029.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab030.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab031.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab032.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab033.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab034.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab035.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab036.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab037star_pattern.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab038palindrome.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab039 reverse_string.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab044filter.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab045filterwithmap.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab046recursion.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab047 sumof digits.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab048.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab049.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab20.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab21.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab22.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab40duplicate_string.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab41vowels.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab42anagram.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab43.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab50.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab51.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab52.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab53.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab54.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab55.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab56.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab57.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab58.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab59.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab60.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab61.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab62.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab63.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab64.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab65.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab66.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab67.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab68.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab69.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab70.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab71.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab72.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab73.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab74.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab75.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab76.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab77.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab78.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab79.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lab80.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.test_Lab01.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.test_Lab02.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/VYSHNAV S VARMA/PycharmProjects&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;ChangesTree.GroupingKeys&quot;: []\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Python tests.Python tests for test_Lab03.test_sub0\">\r\n    <configuration name=\"Lab74\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PythonLearning3xATB\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/ex3july2024\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/ex3july2024/Lab74.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Lab75\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PythonLearning3xATB\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/ex3july2024\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/ex3july2024/Lab75.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Lab76\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PythonLearning3xATB\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/ex3july2024\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/ex3july2024/Lab76.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests for test_Lab03.test_sub0\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PythonLearning3xATB\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/API_AUTOMATION\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;test_Lab03.test_sub0&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PYTHON&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests for test_Lab03.test_sub1\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PythonLearning3xATB\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/API_AUTOMATION\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;test_Lab03.test_sub1&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PYTHON&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python tests.Python tests for test_Lab03.test_sub0\" />\r\n        <item itemvalue=\"Python tests.Python tests for test_Lab03.test_sub1\" />\r\n        <item itemvalue=\"Python.Lab76\" />\r\n        <item itemvalue=\"Python.Lab75\" />\r\n        <item itemvalue=\"Python.Lab74\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e03094bb-05a9-434c-8f5c-7853fe20363e\" name=\"Changes\" comment=\"\" />\r\n      <created>1717384783818</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1717384783818</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"added Lab001\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1717385235482</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1717385235482</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"added Lab002\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1717687926793</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1717687926793</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"added files\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1717773314556</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1717773314556</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"added files\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718124736280</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718124736280</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"added files fibonacci , triangle and grade problems\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718261101212</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718261101212</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"added files match , functions etc\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718439923445</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718439923446</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"added files  functions\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718732825188</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718732825189</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"added files  functions map(), lambda\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718898412877</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718898412877</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"added files  functions map(), lambda\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719220869087</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719220869087</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"added pattern, string qns, anagram, vowels\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719245828371</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719245828371</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"added recursion , sum of digits, factorial\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719473806222</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719473806222</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"added oops files\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719642584862</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719642584862</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"added oops encapsulation, public, private, protected examples\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719652915076</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719652915076</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"added oops inheritance, types of inheritance, abstraction, imports, method overriding, method overloading\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1720198674887</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1720198674887</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"added exception handling try , except , else, finally, custom exceptions, creating main function in python, file handling inn python\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1720455385330</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1720455385330</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"OS Modules, file access, Directories, Mark Down(md) files, Overview Fundamentals of API testing(Things to Learn)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1720545155736</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1720545155737</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"API AUTOMATION Files, Pytest, Allure\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1721834168764</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1721834168764</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"18\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"added Lab001\" />\r\n    <MESSAGE value=\"added Lab002\" />\r\n    <MESSAGE value=\"added files\" />\r\n    <MESSAGE value=\"added files fibonacci , triangle and grade problems\" />\r\n    <MESSAGE value=\"added files match , functions etc\" />\r\n    <MESSAGE value=\"added files  functions\" />\r\n    <MESSAGE value=\"added files  functions map(), lambda\" />\r\n    <MESSAGE value=\"added pattern, string qns, anagram, vowels\" />\r\n    <MESSAGE value=\"added recursion , sum of digits, factorial\" />\r\n    <MESSAGE value=\"added oops files\" />\r\n    <MESSAGE value=\"added oops encapsulation, public, private, protected examples\" />\r\n    <MESSAGE value=\"added oops inheritance, types of inheritance, abstraction, imports, method overriding, method overloading\" />\r\n    <MESSAGE value=\"added exception handling try , except , else, finally, custom exceptions, creating main function in python, file handling inn python\" />\r\n    <MESSAGE value=\"OS Modules, file access, Directories, Mark Down(md) files, Overview Fundamentals of API testing(Things to Learn)\" />\r\n    <MESSAGE value=\"API AUTOMATION Files, Pytest, Allure\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"API AUTOMATION Files, Pytest, Allure\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 32276cea0fb52de7f535ad27c9bcc9ecfbc9fc32)
++++ b/.idea/workspace.xml	(date 1721981247504)
+@@ -4,14 +4,27 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e03094bb-05a9-434c-8f5c-7853fe20363e" name="Changes" comment="API AUTOMATION Files, Pytest, Allure">
++    <list default="true" id="e03094bb-05a9-434c-8f5c-7853fe20363e" name="Changes" comment="Added Allure reports, allure issue resolved successfully">
++      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab04.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab05.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab06.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_result/092022ee-5331-4517-a7f6-23c0e93b93ed-result.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_result/1bdf0054-0340-4f30-bc3e-ebe4ec682226-result.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_result/2b19b367-fa49-430a-8d92-0c9729443bdd-result.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_result/2bde9d39-9551-4aa3-9821-6fa5bd355ce0-result.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_result/8ccaf307-bd9f-4850-a545-22b174c15304-result.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_result/92795948-92c5-4e9d-abdb-dddc3becd22e-result.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_result/a92bedfa-4a19-40a5-80bb-186f212fd17a-result.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_result/c9c19d66-42f5-40f1-bdf3-fb715b592011-result.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_result/d87f34d6-05be-4977-b68b-4f36df622cde-result.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/PythonLearning3xATB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonLearning3xATB.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/test_Lab03.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab03.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/allure_result/0856121e-5a50-4207-8e39-6e74f5e46527-result.json" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/allure_result/c7ed2ec1-aec4-4dfd-a448-870b6a975bea-result.json" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/allure_result/e46aa504-3fc5-4170-8c0a-211224c6548d-result.json" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/allure_result/e5d933bf-89f6-4484-aab3-24d76dffdff2-result.json" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/allure_result/ec0899e5-70a5-4383-9c93-abfee9203d3b-result.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/README.md" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/allure_result/1a9708bf-2a6d-499a-b929-b06ea4906cd9-result.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/allure_result/28076033-b15a-48d5-ac9e-ae452d8edf16-result.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/allure_result/bc2601c5-e392-4145-b2c0-369f479b1f84-result.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/allure_result/c1bb8739-b0bb-4e4a-820f-cedc5814a249-result.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/allure_result/e0763093-91da-4958-8455-3015fd5cfb7f-result.json" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -48,107 +61,112 @@
+   &quot;associatedIndex&quot;: 1
+ }</component>
+   <component name="ProjectId" id="2hLsdvPjCSaBZm0vIE5aeAC9fDt" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Python tests.Python tests for test_Lab03.test_sub0.executor&quot;: &quot;Run&quot;,
+-    &quot;Python tests.Python tests for test_Lab03.test_sub1.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.LAB002.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab 026.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab001.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab003.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab004.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab005.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab007Work2.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab008.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab009Leapyearpgm.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab010Triangle.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab011Factorial.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab012Fibonacci.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab013.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab014.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab015.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab016.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab017.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab018.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab019.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab023..executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab024.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab025.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab027.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab028.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab029.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab030.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab031.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab032.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab033.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab034.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab035.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab036.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab037star_pattern.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab038palindrome.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab039 reverse_string.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab044filter.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab045filterwithmap.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab046recursion.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab047 sumof digits.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab048.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab049.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab20.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab21.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab22.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab40duplicate_string.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab41vowels.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab42anagram.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab43.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab50.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab51.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab52.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab53.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab54.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab55.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab56.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab57.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab58.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab59.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab60.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab61.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab62.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab63.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab64.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab65.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab66.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab67.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab68.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab69.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab70.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab71.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab72.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab73.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab74.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab75.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab76.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab77.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab78.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab79.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lab80.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.test_Lab01.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.test_Lab02.executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/VYSHNAV S VARMA/PycharmProjects&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_ADD_EXTERNAL_FILES": "true",
++    "Python tests.Python tests for test_Lab03.test_sub0.executor": "Run",
++    "Python tests.Python tests for test_Lab03.test_sub1.executor": "Run",
++    "Python tests.Python tests for test_Lab04.test_get_single_request_by_id.executor": "Run",
++    "Python tests.Python tests in test_Lab05.py.executor": "Run",
++    "Python.LAB002.executor": "Run",
++    "Python.Lab 026.executor": "Run",
++    "Python.Lab001.executor": "Run",
++    "Python.Lab003.executor": "Run",
++    "Python.Lab004.executor": "Run",
++    "Python.Lab005.executor": "Run",
++    "Python.Lab007Work2.executor": "Run",
++    "Python.Lab008.executor": "Run",
++    "Python.Lab009Leapyearpgm.executor": "Run",
++    "Python.Lab010Triangle.executor": "Run",
++    "Python.Lab011Factorial.executor": "Run",
++    "Python.Lab012Fibonacci.executor": "Run",
++    "Python.Lab013.executor": "Run",
++    "Python.Lab014.executor": "Run",
++    "Python.Lab015.executor": "Run",
++    "Python.Lab016.executor": "Run",
++    "Python.Lab017.executor": "Run",
++    "Python.Lab018.executor": "Run",
++    "Python.Lab019.executor": "Run",
++    "Python.Lab023..executor": "Run",
++    "Python.Lab024.executor": "Run",
++    "Python.Lab025.executor": "Run",
++    "Python.Lab027.executor": "Run",
++    "Python.Lab028.executor": "Run",
++    "Python.Lab029.executor": "Run",
++    "Python.Lab030.executor": "Run",
++    "Python.Lab031.executor": "Run",
++    "Python.Lab032.executor": "Run",
++    "Python.Lab033.executor": "Run",
++    "Python.Lab034.executor": "Run",
++    "Python.Lab035.executor": "Run",
++    "Python.Lab036.executor": "Run",
++    "Python.Lab037star_pattern.executor": "Run",
++    "Python.Lab038palindrome.executor": "Run",
++    "Python.Lab039 reverse_string.executor": "Run",
++    "Python.Lab044filter.executor": "Run",
++    "Python.Lab045filterwithmap.executor": "Run",
++    "Python.Lab046recursion.executor": "Run",
++    "Python.Lab047 sumof digits.executor": "Run",
++    "Python.Lab048.executor": "Run",
++    "Python.Lab049.executor": "Run",
++    "Python.Lab20.executor": "Run",
++    "Python.Lab21.executor": "Run",
++    "Python.Lab22.executor": "Run",
++    "Python.Lab40duplicate_string.executor": "Run",
++    "Python.Lab41vowels.executor": "Run",
++    "Python.Lab42anagram.executor": "Run",
++    "Python.Lab43.executor": "Run",
++    "Python.Lab50.executor": "Run",
++    "Python.Lab51.executor": "Run",
++    "Python.Lab52.executor": "Run",
++    "Python.Lab53.executor": "Run",
++    "Python.Lab54.executor": "Run",
++    "Python.Lab55.executor": "Run",
++    "Python.Lab56.executor": "Run",
++    "Python.Lab57.executor": "Run",
++    "Python.Lab58.executor": "Run",
++    "Python.Lab59.executor": "Run",
++    "Python.Lab60.executor": "Run",
++    "Python.Lab61.executor": "Run",
++    "Python.Lab62.executor": "Run",
++    "Python.Lab63.executor": "Run",
++    "Python.Lab64.executor": "Run",
++    "Python.Lab65.executor": "Run",
++    "Python.Lab66.executor": "Run",
++    "Python.Lab67.executor": "Run",
++    "Python.Lab68.executor": "Run",
++    "Python.Lab69.executor": "Run",
++    "Python.Lab70.executor": "Run",
++    "Python.Lab71.executor": "Run",
++    "Python.Lab72.executor": "Run",
++    "Python.Lab73.executor": "Run",
++    "Python.Lab74.executor": "Run",
++    "Python.Lab75.executor": "Run",
++    "Python.Lab76.executor": "Run",
++    "Python.Lab77.executor": "Run",
++    "Python.Lab78.executor": "Run",
++    "Python.Lab79.executor": "Run",
++    "Python.Lab80.executor": "Run",
++    "Python.test_Lab01.executor": "Run",
++    "Python.test_Lab02.executor": "Run",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "master",
++    "last_opened_file_path": "C:/Users/VYSHNAV S VARMA/PycharmProjects/PythonLearning3xATB",
++    "settings.editor.selected.configurable": "preferences.pluginManager"
+   },
+-  &quot;keyToStringList&quot;: {
+-    &quot;ChangesTree.GroupingKeys&quot;: []
++  "keyToStringList": {
++    "ChangesTree.GroupingKeys": []
+   }
+-}</component>
+-  <component name="RunManager" selected="Python tests.Python tests for test_Lab03.test_sub0">
+-    <configuration name="Lab74" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++}]]></component>
++  <component name="RunManager">
++    <configuration name="Lab75" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="PythonLearning3xATB" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -161,7 +179,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex3july2024/Lab74.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex3july2024/Lab75.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -170,7 +188,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="Lab75" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="Lab76" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="PythonLearning3xATB" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -183,7 +201,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex3july2024/Lab75.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex3july2024/Lab76.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -192,29 +210,22 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="Lab76" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="Python tests for test_Lab03.test_sub0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+       <module name="PythonLearning3xATB" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ex3july2024" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTOMATION" />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex3july2024/Lab76.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
++      <option name="_new_additionalArguments" value="&quot;&quot;" />
++      <option name="_new_target" value="&quot;test_Lab03.test_sub0&quot;" />
++      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="Python tests for test_Lab03.test_sub0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++    <configuration name="Python tests for test_Lab03.test_sub1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+       <module name="PythonLearning3xATB" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -225,11 +236,11 @@
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <option name="_new_additionalArguments" value="&quot;&quot;" />
+-      <option name="_new_target" value="&quot;test_Lab03.test_sub0&quot;" />
++      <option name="_new_target" value="&quot;test_Lab03.test_sub1&quot;" />
+       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="Python tests for test_Lab03.test_sub1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++    <configuration name="Python tests for test_Lab04.test_get_single_request_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+       <module name="PythonLearning3xATB" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -240,17 +251,17 @@
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <option name="_new_additionalArguments" value="&quot;&quot;" />
+-      <option name="_new_target" value="&quot;test_Lab03.test_sub1&quot;" />
++      <option name="_new_target" value="&quot;test_Lab04.test_get_single_request_by_id&quot;" />
+       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+       <method v="2" />
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Python tests.Python tests for test_Lab04.test_get_single_request_by_id" />
+         <item itemvalue="Python tests.Python tests for test_Lab03.test_sub0" />
+         <item itemvalue="Python tests.Python tests for test_Lab03.test_sub1" />
+         <item itemvalue="Python.Lab76" />
+         <item itemvalue="Python.Lab75" />
+-        <item itemvalue="Python.Lab74" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -406,7 +417,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1721834168764</updated>
+     </task>
+-    <option name="localTasksCounter" value="18" />
++    <task id="LOCAL-00018" summary="Added Allure reports, allure issue resolved successfully">
++      <option name="closed" value="true" />
++      <created>1721841364535</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
++      <option name="project" value="LOCAL" />
++      <updated>1721841364535</updated>
++    </task>
++    <option name="localTasksCounter" value="19" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -421,6 +440,7 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
++    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="added Lab001" />
+     <MESSAGE value="added Lab002" />
+     <MESSAGE value="added files" />
+@@ -436,6 +456,7 @@
+     <MESSAGE value="added exception handling try , except , else, finally, custom exceptions, creating main function in python, file handling inn python" />
+     <MESSAGE value="OS Modules, file access, Directories, Mark Down(md) files, Overview Fundamentals of API testing(Things to Learn)" />
+     <MESSAGE value="API AUTOMATION Files, Pytest, Allure" />
+-    <option name="LAST_COMMIT_MESSAGE" value="API AUTOMATION Files, Pytest, Allure" />
++    <MESSAGE value="Added Allure reports, allure issue resolved successfully" />
++    <option name="LAST_COMMIT_MESSAGE" value="Added Allure reports, allure issue resolved successfully" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/PythonLearning3xATB.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$/..\" />\r\n    <orderEntry type=\"jdk\" jdkName=\"Python 3.12 (PythonLearning3xATB)\" jdkType=\"Python SDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/PythonLearning3xATB.iml b/.idea/PythonLearning3xATB.iml
+--- a/.idea/PythonLearning3xATB.iml	(revision 32276cea0fb52de7f535ad27c9bcc9ecfbc9fc32)
++++ b/.idea/PythonLearning3xATB.iml	(date 1721894304073)
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module type="PYTHON_MODULE" version="4">
+   <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$/.." />
++    <content url="file://$MODULE_DIR$" />
+     <orderEntry type="jdk" jdkName="Python 3.12 (PythonLearning3xATB)" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>

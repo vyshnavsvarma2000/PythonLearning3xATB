@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e03094bb-05a9-434c-8f5c-7853fe20363e" name="Changes" comment="API AUTOMATION Files, Pytest, Allure">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/test_Lab03.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/0856121e-5a50-4207-8e39-6e74f5e46527-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/c7ed2ec1-aec4-4dfd-a448-870b6a975bea-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/e46aa504-3fc5-4170-8c0a-211224c6548d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/e5d933bf-89f6-4484-aab3-24d76dffdff2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/ec0899e5-70a5-4383-9c93-abfee9203d3b-result.json" beforeDir="false" />
-    </list>
+    <list default="true" id="e03094bb-05a9-434c-8f5c-7853fe20363e" name="Changes" comment="API AUTOMATION Files, Pytest, Allure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +40,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2hLsdvPjCSaBZm0vIE5aeAC9fDt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
