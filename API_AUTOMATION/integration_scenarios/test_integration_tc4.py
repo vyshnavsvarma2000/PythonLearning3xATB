@@ -59,4 +59,3 @@ def test_delete_booking():
     response = requests.delete(url=url, headers=headers)
     assert response.status_code == 200
 
-

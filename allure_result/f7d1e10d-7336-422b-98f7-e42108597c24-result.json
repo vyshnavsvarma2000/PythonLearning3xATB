@@ -1,0 +1,1 @@
+{"name": "test_get_booking", "status": "passed", "description": "Verify that create-booking -> patch request -> Verify that firstname is updated", "start": 1722164776449, "stop": 1722164778940, "uuid": "d6304829-a3c5-4a2b-b5b8-375809ef272d", "testCaseId": "35d445ee054010e8807a87a50a02a73f", "fullName": "API_AUTOMATION.integration_scenarios.test_integration_tc1#test_get_booking"}
