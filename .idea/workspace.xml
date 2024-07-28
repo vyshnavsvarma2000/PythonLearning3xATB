@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e03094bb-05a9-434c-8f5c-7853fe20363e" name="Changes" comment="API AUTOMATIONS, Created a CRUD Operations for RESTful Booker API, Create Booking, GET, Update Booking , Deleting a Booking">
-      <change afterPath="$PROJECT_DIR$/allure_result/d5fdb953-97a5-420e-99a8-ce77b0046986-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure_result/e18a20d5-b362-48c2-9277-cfe537ffe602-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/1a9708bf-2a6d-499a-b929-b06ea4906cd9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/28076033-b15a-48d5-ac9e-ae452d8edf16-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/bc2601c5-e392-4145-b2c0-369f479b1f84-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/c1bb8739-b0bb-4e4a-820f-cedc5814a249-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/e0763093-91da-4958-8455-3015fd5cfb7f-result.json" beforeDir="false" />
+    <list default="true" id="e03094bb-05a9-434c-8f5c-7853fe20363e" name="Changes" comment="API AUTOMATION Files, Pytest, Allure">
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/test_Lab06.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/test_Lab06.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,124 +56,103 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Python tests for test_Lab03.test_sub0.executor": "Run",
-    "Python tests.Python tests for test_Lab03.test_sub1.executor": "Run",
-    "Python.LAB002.executor": "Run",
-    "Python.Lab 026.executor": "Run",
-    "Python.Lab001.executor": "Run",
-    "Python.Lab003.executor": "Run",
-    "Python.Lab004.executor": "Run",
-    "Python.Lab005.executor": "Run",
-    "Python.Lab007Work2.executor": "Run",
-    "Python.Lab008.executor": "Run",
-    "Python.Lab009Leapyearpgm.executor": "Run",
-    "Python.Lab010Triangle.executor": "Run",
-    "Python.Lab011Factorial.executor": "Run",
-    "Python.Lab012Fibonacci.executor": "Run",
-    "Python.Lab013.executor": "Run",
-    "Python.Lab014.executor": "Run",
-    "Python.Lab015.executor": "Run",
-    "Python.Lab016.executor": "Run",
-    "Python.Lab017.executor": "Run",
-    "Python.Lab018.executor": "Run",
-    "Python.Lab019.executor": "Run",
-    "Python.Lab023..executor": "Run",
-    "Python.Lab024.executor": "Run",
-    "Python.Lab025.executor": "Run",
-    "Python.Lab027.executor": "Run",
-    "Python.Lab028.executor": "Run",
-    "Python.Lab029.executor": "Run",
-    "Python.Lab030.executor": "Run",
-    "Python.Lab031.executor": "Run",
-    "Python.Lab032.executor": "Run",
-    "Python.Lab033.executor": "Run",
-    "Python.Lab034.executor": "Run",
-    "Python.Lab035.executor": "Run",
-    "Python.Lab036.executor": "Run",
-    "Python.Lab037star_pattern.executor": "Run",
-    "Python.Lab038palindrome.executor": "Run",
-    "Python.Lab039 reverse_string.executor": "Run",
-    "Python.Lab044filter.executor": "Run",
-    "Python.Lab045filterwithmap.executor": "Run",
-    "Python.Lab046recursion.executor": "Run",
-    "Python.Lab047 sumof digits.executor": "Run",
-    "Python.Lab048.executor": "Run",
-    "Python.Lab049.executor": "Run",
-    "Python.Lab20.executor": "Run",
-    "Python.Lab21.executor": "Run",
-    "Python.Lab22.executor": "Run",
-    "Python.Lab40duplicate_string.executor": "Run",
-    "Python.Lab41vowels.executor": "Run",
-    "Python.Lab42anagram.executor": "Run",
-    "Python.Lab43.executor": "Run",
-    "Python.Lab50.executor": "Run",
-    "Python.Lab51.executor": "Run",
-    "Python.Lab52.executor": "Run",
-    "Python.Lab53.executor": "Run",
-    "Python.Lab54.executor": "Run",
-    "Python.Lab55.executor": "Run",
-    "Python.Lab56.executor": "Run",
-    "Python.Lab57.executor": "Run",
-    "Python.Lab58.executor": "Run",
-    "Python.Lab59.executor": "Run",
-    "Python.Lab60.executor": "Run",
-    "Python.Lab61.executor": "Run",
-    "Python.Lab62.executor": "Run",
-    "Python.Lab63.executor": "Run",
-    "Python.Lab64.executor": "Run",
-    "Python.Lab65.executor": "Run",
-    "Python.Lab66.executor": "Run",
-    "Python.Lab67.executor": "Run",
-    "Python.Lab68.executor": "Run",
-    "Python.Lab69.executor": "Run",
-    "Python.Lab70.executor": "Run",
-    "Python.Lab71.executor": "Run",
-    "Python.Lab72.executor": "Run",
-    "Python.Lab73.executor": "Run",
-    "Python.Lab74.executor": "Run",
-    "Python.Lab75.executor": "Run",
-    "Python.Lab76.executor": "Run",
-    "Python.Lab77.executor": "Run",
-    "Python.Lab78.executor": "Run",
-    "Python.Lab79.executor": "Run",
-    "Python.Lab80.executor": "Run",
-    "Python.test_Lab01.executor": "Run",
-    "Python.test_Lab02.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/VYSHNAV S VARMA/PycharmProjects",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_Lab03.test_sub0.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab03.test_sub1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab07.test_put_request.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab 026.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab004.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab005.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab007Work2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab008.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab009Leapyearpgm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab010Triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab011Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab012Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab013.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab014.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab015.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab016.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab017.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab018.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab019.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab023..executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab024.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab025.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab027.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab028.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab029.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab030.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab031.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab032.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab033.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab034.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab035.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab036.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab037star_pattern.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab038palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab039 reverse_string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab044filter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab045filterwithmap.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab046recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab047 sumof digits.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab048.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab049.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab21.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab22.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab40duplicate_string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab41vowels.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab42anagram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab43.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab50.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab51.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab52.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab53.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab54.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab55.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab56.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab57.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab58.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab59.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab60.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab61.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab62.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab63.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab64.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab65.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab66.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab67.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab68.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab69.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab70.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab71.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab72.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab73.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab74.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab75.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab76.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab77.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab78.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab79.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab80.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_Lab01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_Lab02.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/VYSHNAV S VARMA/PycharmProjects&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": []
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: []
   }
-}]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Lab03.test_sub0">
-    <configuration name="Lab74" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonLearning3xATB" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ex3july2024" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex3july2024/Lab74.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}</component>
+  <component name="RunManager">
     <configuration name="Lab75" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonLearning3xATB" />
       <option name="ENV_FILES" value="" />
@@ -217,6 +197,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for PythonLearning3xATB.API_AUTOMATION.integration_scenarios.test_integrationTC1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTOMATION" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;PythonLearning3xATB.API_AUTOMATION.integration_scenarios.test_integrationTC1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_Lab03.test_sub0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonLearning3xATB" />
       <option name="ENV_FILES" value="" />
@@ -249,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for PythonLearning3xATB.API_AUTOMATION.integration_scenarios.test_integrationTC1" />
         <item itemvalue="Python tests.Python tests for test_Lab03.test_sub0" />
         <item itemvalue="Python tests.Python tests for test_Lab03.test_sub1" />
         <item itemvalue="Python.Lab76" />
         <item itemvalue="Python.Lab75" />
-        <item itemvalue="Python.Lab74" />
       </list>
     </recent_temporary>
   </component>

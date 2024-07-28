@@ -1,7 +1,7 @@
 #PUT
 # URL
 # PATH PARAM - Booking id
-# Token for authrntication
+# Token for authentication
 # Payload
 
 # 1) create token , 2) create booking , 3) create the testfunction for put request
