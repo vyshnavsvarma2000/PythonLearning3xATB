@@ -5,11 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e03094bb-05a9-434c-8f5c-7853fe20363e" name="Changes" comment="API AUTOMATION Files, Pytest, Allure">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/fixtures/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/fixtures/test_Lab_env_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/fixtures/test_Lab_fixture01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/fixtures/test_Lab_fixture02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/fixtures/test_Lab_fixture03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/fixtures/test_Lab_fixture04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/fixtures/test_Lab_fixture_test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/21e16ab7-72e9-48e8-a3ae-a895839672d1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/2368e6eb-f44c-4ebc-a04b-a7d18b02d617-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/2c1f6ebc-f5b3-4a3a-8d0a-50814491d949-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/3404032d-75d0-4fd5-b7bc-680c526490d4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/362268af-8c4e-4a20-83e3-2f44ade35dd7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/3a098537-f240-4477-9dfc-aadd6624a2ba-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/51b4b841-9d9e-403f-b915-b083d51ba53e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/5a8ce4f4-c477-4d75-a200-a21acb0cc7ee-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/6e6302c1-9681-4f32-9bda-377635e32b1c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/713c4cfd-c02d-4be1-854a-be38478aec29-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/82d5aeb1-867f-4c12-aa1d-7798c1de8e09-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/8f62b4ec-6604-4098-b007-a9405a3ebdaa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/918a5686-020e-4913-ad14-b1dac286ef92-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/97c98c49-c6a1-4622-b451-c4921dd2733d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/aa0e304e-85bc-47b0-b036-724c7b980c2d-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/af34e44b-6a35-4874-a3a7-98161513be26-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/e394a133-3154-4628-bb04-2a1a2dcdcfb6-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/e9d07091-333d-4f64-9207-16dcbb9d1ee1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_result/f782c413-4c8b-4016-bba9-7839effcc817-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc1.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc2.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc3.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc5.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/fixtures/test_Labf01.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/fixtures/test_Lab_fixture_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +82,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python tests.Python tests for test_Lab02.test_booking_token.executor": "Run",
     "Python tests.Python tests for test_Lab03.test_sub0.executor": "Run",
     "Python tests.Python tests for test_Lab03.test_sub1.executor": "Run",
     "Python tests.Python tests for test_Lab07.test_put_request.executor": "Run",
+    "Python tests.Python tests for test_Lab_env_01.test_update_req.executor": "Run",
+    "Python tests.Python tests for test_Lab_fixture02.test_delete.executor": "Run",
+    "Python tests.Python tests for test_Lab_fixture02.test_delete.test_put_request_positive.executor": "Run",
+    "Python tests.Python tests for test_Lab_fixture02.test_put_request_positive.executor": "Run",
     "Python tests.Python tests for test_Labf01.test_sample_1_2.executor": "Run",
     "Python.LAB002.executor": "Run",
     "Python.Lab 026.executor": "Run",
@@ -143,7 +175,7 @@
     "Python.test_Lab02.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/VYSHNAV S VARMA/PycharmProjects",
+    "last_opened_file_path": "C:/Users/VYSHNAV S VARMA/PycharmProjects/PythonLearning3xATB/API_AUTOMATION/fixtures",
     "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   },
   "keyToStringList": {
@@ -151,79 +183,17 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\VYSHNAV S VARMA\PycharmProjects\PythonLearning3xATB\API_AUTOMATION\fixtures" />
+      <recent name="C:\Users\VYSHNAV S VARMA\PycharmProjects\PythonLearning3xATB\API_AUTOMATION\Integration with fixtures" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\VYSHNAV S VARMA\PycharmProjects\PythonLearning3xATB\API_AUTOMATION" />
       <recent name="C:\Users\VYSHNAV S VARMA\PycharmProjects\PythonLearning3xATB\API_AUTOMATION\integration_scenarios" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Labf01.test_sample_1_2">
-    <configuration name="Lab76" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonLearning3xATB" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ex3july2024" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex3july2024/Lab76.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for PythonLearning3xATB.API_AUTOMATION.integration_scenarios.test_integration_tc1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonLearning3xATB" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTOMATION" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PythonLearning3xATB.API_AUTOMATION.integration_scenarios.test_integration_tc1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_Lab03.test_sub0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonLearning3xATB" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTOMATION" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab03.test_sub0&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_Lab03.test_sub1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonLearning3xATB" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTOMATION" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab03.test_sub1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_Labf01.test_sample_1_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_Lab_env_01.test_update_req">
+    <configuration name="Python tests for PythonLearning3xATB.API_AUTOMATION.fixtures.test_Lab_fixture_test2.test_booking_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonLearning3xATB" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,17 +204,77 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Labf01.test_sample_1_2&quot;" />
+      <option name="_new_target" value="&quot;PythonLearning3xATB.API_AUTOMATION.fixtures.test_Lab_fixture_test2.test_booking_token&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Lab_env_01.test_update_req" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTOMATION/fixtures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Lab_env_01.test_update_req&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Lab_fixture02.test_delete" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTOMATION/fixtures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Lab_fixture02.test_delete&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Lab_fixture02.test_delete.test_put_request_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTOMATION/fixtures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Lab_fixture02.test_delete.test_put_request_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Lab_fixture02.test_put_request_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTOMATION/fixtures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Lab_fixture02.test_put_request_positive&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_Labf01.test_sample_1_2" />
-        <item itemvalue="Python tests.Python tests for PythonLearning3xATB.API_AUTOMATION.integration_scenarios.test_integration_tc1" />
-        <item itemvalue="Python tests.Python tests for test_Lab03.test_sub0" />
-        <item itemvalue="Python tests.Python tests for test_Lab03.test_sub1" />
-        <item itemvalue="Python.Lab76" />
+        <item itemvalue="Python tests.Python tests for test_Lab_env_01.test_update_req" />
+        <item itemvalue="Python tests.Python tests for test_Lab_fixture02.test_delete" />
+        <item itemvalue="Python tests.Python tests for test_Lab_fixture02.test_put_request_positive" />
+        <item itemvalue="Python tests.Python tests for test_Lab_fixture02.test_delete.test_put_request_positive" />
+        <item itemvalue="Python tests.Python tests for PythonLearning3xATB.API_AUTOMATION.fixtures.test_Lab_fixture_test2.test_booking_token" />
       </list>
     </recent_temporary>
   </component>
