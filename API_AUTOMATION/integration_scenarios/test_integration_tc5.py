@@ -17,5 +17,5 @@ def test_create_booking():
     headers = {"Content-Type": "application/json"}
     payload = {}
     response = requests.post(url=booking_url, headers=headers, json=payload)
-    assert response.status_code !=200
+    assert response.status_code == 500
     print(response)

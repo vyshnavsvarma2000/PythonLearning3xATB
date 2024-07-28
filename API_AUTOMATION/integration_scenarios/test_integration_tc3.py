@@ -31,12 +31,16 @@ def test_get_all_booking_id():
     url = "https://restful-booker.herokuapp.com/booking/"
     response = requests.get(url=url)
     response_data = response.json()
+    assert response.status_code == 200
 @allure.title("TC-03 GET ALL BOOKING, GET SINGLE ID, UPDATEIT , VERIFY USING GET")
 @allure.description("GET an existing booking from GET all bookingid's , Update a booking with that id, Verify with GET request that it is updated")
 @pytest.mark.integration
 def test_get_single_booking_id():
     url = "https://restful-booker.herokuapp.com/booking/19/"
     response = requests.get(url=url)
+    response_data = response.json()
+    assert response.status_code == 200
+    assert response_data["bookingid"] == 19
 
 @allure.title("TC-03 GET ALL BOOKING, GET SINGLE ID, UPDATEIT , VERIFY USING GET")
 @allure.description("GET an existing booking from GET all bookingid's , Update a booking with that id, Verify with GET request that it is updated")

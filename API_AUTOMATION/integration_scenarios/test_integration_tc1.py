@@ -46,6 +46,7 @@ def create_booking():
     response_data = response.json()
     bookingid = response_data["bookingid"]
     return bookingid
+
 @allure.title("TC-01 CREATE BOOKING , PARTIAL_ UPDATE IT AND VERIFY")
 @allure.description("Verify that create-booking -> patch request -> Verify that firstname is updated")
 @pytest.mark.integration
@@ -58,11 +59,10 @@ def test_patch_request():
         "firstname": "Vishal",
         "lastname": "S Varma"
     }
-    print(cookies)
     response = requests.patch(url=url, headers=headers, json=payload)
-    print(response.json())
-    return response
     assert response.status_code == 200
+    return response
+
 @allure.description("Verify that create-booking -> patch request -> Verify that firstname is updated")
 @pytest.mark.integration
 def test_get_booking():

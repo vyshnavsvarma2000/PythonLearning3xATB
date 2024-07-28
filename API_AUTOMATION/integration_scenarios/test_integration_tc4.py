@@ -57,5 +57,5 @@ def test_delete_booking():
     cookies = "token="+create_token()
     headers = {"Content-Type": "application/json","Cookie": cookies}
     response = requests.delete(url=url, headers=headers)
-    assert response.status_code == 200
+    assert response.status_code in [200, 204]
 

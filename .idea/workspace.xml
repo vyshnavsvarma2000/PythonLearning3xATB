@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e03094bb-05a9-434c-8f5c-7853fe20363e" name="Changes" comment="API AUTOMATION Files, Pytest, Allure">
-      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/fixtures/test_Labf01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc2..py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integrationTC1.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integrationTC2..py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integrationTC3.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integrationTC4.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integrationTC5.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integrationTC6.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc1.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc2.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc3.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc5.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTOMATION/integration_scenarios/test_integration_tc5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
