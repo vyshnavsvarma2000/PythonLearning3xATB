@@ -1,10 +1,6 @@
 #Integration Scenarios
-# 1) Verify that create-booking -> patch request -> Verify that firstname is updated
-# 2) Create a booking, Delete the booking with that id, Verify the GET request that it should not exist
-# 3) GET an existing booking from GET all bookingid's , Update a booking with that id, Verify with GET request that it is updated
-# 4) Create a booking and delete it
 # 5) Invalid creation -  Enter a wrong payload or JSON
-# 6) Trying to Update on a deleted id
+
 
 import pytest
 import allure

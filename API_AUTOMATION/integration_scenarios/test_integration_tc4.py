@@ -1,61 +1,51 @@
 #Integration Scenarios
-# 1) Verify that create-booking -> patch request -> Verify that firstname is updated
-# 2) Create a booking, Delete the booking with that id, Verify the GET request that it should not exist
-# 3) GET an existing booking from GET all bookingid's , Update a booking with that id, Verify with GET request that it is updated
 # 4) Create a booking and delete it
-# 5) Invalid creation -  Enter a wrong payload or JSON
-# 6) Trying to Update on a deleted id
 
 import pytest
-import allure
 import requests
+import allure
 
-@allure.title("TC-04 CREATE A BOOKING, DELETE IT")
-@allure.description("Create a booking and delete it")
+
+@allure.title("TC-04 Create a Booking and Delete It")
+@allure.description("Create a booking and delete it, then verify the deletion")
 @pytest.mark.integration
-def create_token():
-    url = "https://restful-booker.herokuapp.com/auth"
+def test_create_booking_delete(create_token):
+    base_url = "https://restful-booker.herokuapp.com/booking/"
     headers = {"Content-Type": "application/json"}
+
+    # Payload for creating a booking
     payload = {
-        "username":"admin",
-        "password":"password123"
-    }
-    response = requests.post(url=url, headers=headers, json=payload)
-    response_data = response.json()
-    token = response_data["token"]
-    return token
+    "firstname": "Test",
+    "lastname": "Varma",
+    "totalprice": 111,
+    "depositpaid": True,
+    "bookingdates": {
+        "checkin": "2024-01-01",
+        "checkout": "2024-04-01"
+    },
+    "additionalneeds": "Breakfast"
+}
 
-@allure.title("TC-04 CREATE A BOOKING, DELETE IT")
-@allure.description("Create a booking and delete it")
-@pytest.mark.integration
+    # Step 1: Create a booking
+    create_response = requests.post(url=base_url, headers=headers, json=payload)
+    assert create_response.status_code in [201, 200], "Failed to create booking"
 
-def create_booking():
-    booking_url = "https://restful-booker.herokuapp.com/booking/"
-    headers = {"Content-Type": "application/json"}
-    payload = {
-        "firstname": "TEST",
-        "lastname": "S Varma",
-        "totalprice": 111,
-        "depositpaid": True,
-        "bookingdates": {
-            "checkin": "2024-01-01",
-            "checkout": "2024-04-01"
-        },
-        "additionalneeds": "Breakfast"
-    }
-    response = requests.post(url=booking_url, headers=headers, json=payload)
-    response_data = response.json()
-    bookingid= response_data["bookingid"]
-    return bookingid
+    create_response_data = create_response.json()
+    print("Create Booking Response:", create_response_data)
 
-@allure.title("TC-04 CREATE A BOOKING, DELETE IT")
-@allure.description("Create a booking and delete it")
-@pytest.mark.integration
-def test_delete_booking():
-    booking_url = "https://restful-booker.herokuapp.com/booking/"
-    url = booking_url + str(create_booking)
-    cookies = "token="+create_token()
-    headers = {"Content-Type": "application/json","Cookie": cookies}
-    response = requests.delete(url=url, headers=headers)
-    assert response.status_code in [200, 204]
+    # Verify the booking creation
+    assert 'bookingid' in create_response_data, "Booking ID is missing in the response"
+    assert create_response_data["booking"]["firstname"] == "Test", "First name is incorrect"
+    assert create_response_data["booking"]["lastname"] == "Varma", "Last name is incorrect"
 
+    bookingid = create_response_data["bookingid"]
+
+    # Step 2: Delete the booking
+    delete_url = base_url + str(bookingid)
+    cookies = {"token": create_token}
+    delete_response = requests.delete(url=delete_url, cookies=cookies)
+    assert delete_response.status_code in [200, 201], "Failed to delete booking"
+
+    # Step 3: Verify the booking deletion
+    get_response = requests.get(url=delete_url)
+    assert get_response.status_code == 404, "Booking was not deleted successfully"

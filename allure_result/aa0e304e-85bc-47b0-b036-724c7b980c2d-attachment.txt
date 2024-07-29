@@ -1,2 +1,0 @@
-e5ff3f071e350da
-{'firstname': 'Vyshnav', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2024-01-01', 'checkout': '2024-04-01'}, 'additionalneeds': 'Breakfast'}

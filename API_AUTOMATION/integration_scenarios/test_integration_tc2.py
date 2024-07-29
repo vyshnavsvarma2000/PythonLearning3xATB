@@ -2,27 +2,15 @@ import pytest
 import allure
 import requests
 
-@allure.title("TC-02 CREATE BOOKING , DELETE  IT AND VERIFY")
-@allure.description("Create a booking, Delete the booking with that id, Verify the GET request that it should not exist")
+@allure.title("TC-02 CREATE BOOKING, DELETE IT AND VERIFY")
+@allure.description("Create a booking, Delete the booking with that ID, Verify with a GET request that it should not exist")
 @pytest.mark.integration
-def create_token():
-    url = "https://restful-booker.herokuapp.com/auth"
+def test_create_booking_delete_verify(create_token):
+    base_url = "https://restful-booker.herokuapp.com/booking/"
     headers = {"Content-Type": "application/json"}
-    payload = {
-        "username":"admin",
-        "password":"password123"
-    }
-    response = requests.post(url=url, headers=headers, json=payload)
-    response_data = response.json()
-    token = response_data["token"]
-    return token
 
-@allure.title("TC-02 CREATE BOOKING , DELETE  IT AND VERIFY")
-@allure.description("Create a booking, Delete the booking with that id, Verify the GET request that it should not exist")
-@pytest.mark.integration
-def create_booking():
-    booking_url = "https://restful-booker.herokuapp.com/booking/"
-    headers = {"Content-Type": "application/json"}
+    # Create a booking
+    booking_url = base_url
     payload = {
         "firstname": "Vyshnav",
         "lastname": "S Varma",
@@ -37,23 +25,13 @@ def create_booking():
     response = requests.post(url=booking_url, headers=headers, json=payload)
     response_data = response.json()
     bookingid = response_data["bookingid"]
-    return bookingid
 
-@allure.title("TC-02 CREATE BOOKING , DELETE  IT AND VERIFY")
-@allure.description("Create a booking, Delete the booking with that id, Verify the GET request that it should not exist")
-@pytest.mark.integration
-def test_delete_booking():
-    base_url = "https://restful-booker.herokuapp.com/booking/"
-    url = base_url+ str(create_booking())
-    cookies = "token="+create_token()
-    headers = {"Content-Type":"application/json", "Cookie":cookies}
-    response = requests.delete(url=url, headers=headers)
-    assert response.status_code == 200
+    # Delete the booking
+    delete_url = base_url + str(bookingid)
+    cookies = {"token": create_token}
+    delete_response = requests.delete(url=delete_url, cookies=cookies)
+    assert delete_response.status_code == 201  # The response should be 201 Created on successful deletion
 
-@allure.description("Create a booking, Delete the booking with that id, Verify the GET request that it should not exist")
-@pytest.mark.integration
-def test_get_booking_deleted():
-    base_url = "https://restful-booker.herokuapp.com/booking/"
-    url = base_url+str(create_booking())
-    response = requests.get(url=url)
-    assert  response.status_code == 404
+    # Verify the delete operation
+    get_response = requests.get(url=delete_url)
+    assert get_response.status_code == 404  # The response should be 404 Not Found

@@ -1,0 +1,2 @@
+4660e076d47ee14
+Create Booking Response: {'bookingid': 1672, 'booking': {'firstname': 'Test', 'lastname': 'Varma', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2024-01-01', 'checkout': '2024-04-01'}, 'additionalneeds': 'Breakfast'}}

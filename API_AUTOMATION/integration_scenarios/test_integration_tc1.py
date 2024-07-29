@@ -1,36 +1,21 @@
 #Integration Scenarios
 # 1) Verify that create-booking -> patch request -> Verify that firstname is updated
-# 2) Create a booking, Delete the booking with that id, Verify the GET request that it should not exist
-# 3) GET an existing0 booking from GET all bookingid's , Update a booking with that id, Verify with GET request that it is updated
-# 4) Create a booking and delete it
-# 5) Invalid creation -  Enter a wrong payload or JSON
-# 6) Trying to Update on a deleted id
 
 import pytest
 import allure
 import requests
 
-@allure.title("TC-01 CREATE BOOKING , PARTIAL_ UPDATE IT AND VERIFY")
-@allure.description("Verify that create-booking -> patch request -> Verify that firstname is updated")
-@pytest.mark.integration
-def create_token():
-    url = "https://restful-booker.herokuapp.com/auth"
-    headers = {"Content-Type": "application/json"}
-    payload = {
-        "username":"admin",
-        "password":"password123"
-    }
-    response = requests.post(url=url, headers=headers, json=payload)
-    response_data = response.json()
-    token = response_data["token"]
-    return token
 
-@allure.title("TC-01 CREATE BOOKING , PARTIAL_ UPDATE IT AND VERIFY")
+@allure.title("TC-01 CREATE BOOKING, PARTIAL UPDATE IT AND VERIFY")
 @allure.description("Verify that create-booking -> patch request -> Verify that firstname is updated")
 @pytest.mark.integration
-def create_booking():
-    booking_url = "https://restful-booker.herokuapp.com/booking/"
+def test_create_and_patch_booking(create_booking, create_token):
+    # Define URLs and headers
+    base_url = "https://restful-booker.herokuapp.com/booking/"
     headers = {"Content-Type": "application/json"}
+
+    # Create booking
+    booking_url = base_url
     payload = {
         "firstname": "Vyshnav",
         "lastname": "S Varma",
@@ -45,31 +30,23 @@ def create_booking():
     response = requests.post(url=booking_url, headers=headers, json=payload)
     response_data = response.json()
     bookingid = response_data["bookingid"]
-    return bookingid
 
-@allure.title("TC-01 CREATE BOOKING , PARTIAL_ UPDATE IT AND VERIFY")
-@allure.description("Verify that create-booking -> patch request -> Verify that firstname is updated")
-@pytest.mark.integration
-def test_patch_request():
-    base_url = "https://restful-booker.herokuapp.com/booking/"
-    url = base_url+str(create_booking())
-    cookies = "token="+create_token()
-    headers = {"Content-Type": "application/json", "Cookie": cookies}
-    payload = {
+    # Partial update booking
+    patch_url = base_url + str(bookingid)
+    cookies = {"token": create_token}
+    patch_payload = {
         "firstname": "Vishal",
         "lastname": "S Varma"
     }
-    response = requests.patch(url=url, headers=headers, json=payload)
-    assert response.status_code == 200
-    return response
+    patch_response = requests.patch(url=patch_url, headers=headers, cookies=cookies, json=patch_payload)
+    assert patch_response.status_code == 200
 
-@allure.description("Verify that create-booking -> patch request -> Verify that firstname is updated")
-@pytest.mark.integration
-def test_get_booking():
-    base_url = "https://restful-booker.herokuapp.com/booking/"
-    url = base_url + str(create_booking())
-    response = test_patch_request()
+    # Verify the update
+    get_url = patch_url
+    response = requests.get(url=get_url, headers=headers)
     response_data = response.json()
     assert response_data["firstname"] == "Vishal"
+    print(response_data)
     assert response.status_code == 200
+
 
